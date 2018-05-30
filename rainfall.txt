@@ -1,0 +1,30 @@
+ROGRAM4:
+
+ALGORITHM:
+Take the dimensions of the footprint of the roof and convert them to inches. Multiply the roof dimensions by the number of inches of rainfall. 
+Divide that result by 231 to get the number of gallons.
+
+INPUTS
+roofWidth, roofLength
+PROCESSING STEPS
+Convert width to inches
+Convert length to inches
+Multiply roofWidthInInches by roofLengthInInches and by rainFall
+Divide the result by 231
+OUTPUTS
+display the runoffInGallons to the screen
+_______________
+
+PSEUDOCODE:
+
+Prompt user for roofWidth
+Get roofWidth
+Prompt user for roofLength
+Get roofLength
+Prompt user for rainFall
+Get rainFall
+Calculate roofWidthInInches = roofWidth * 12
+Calculate roofLengthInInches = roofLength * 12
+Calculate runoffInCubicInches = roofWidthInInches * roofLengthInInches * rainFall
+Calculate runoffInGallons = runoffInCubicInches / 231
+Display runoffInGallons"# rainfall" 
