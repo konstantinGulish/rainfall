@@ -1,5 +1,5 @@
 ROGRAM4:
-
+//The program calculates water run off from a roof.
 ALGORITHM:
 Take the dimensions of the footprint of the roof and convert them to inches. Multiply the roof dimensions by the number of inches of rainfall. 
 Divide that result by 231 to get the number of gallons.
